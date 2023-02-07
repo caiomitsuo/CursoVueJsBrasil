@@ -16,7 +16,7 @@ import CustomHeader from './CustomHeader.vue'
 import Contact from './Contact.vue'
 
 export default {
-  components: { customHeader, Contact },
+  components: { CustomHeader, Contact },
   setup () {
     const router = useRouter()
 
