@@ -1,6 +1,5 @@
-
 <template>
-  <h1>Aqui 'e a Feedabacks</h1>
+  <h1>Aqui e a Feedabacks</h1>
 </template>
 
 <script>
