@@ -3,7 +3,7 @@
         <div v-if="state.isActive"
             class="fixed top-0 left-0 z-50 flex items-center justify-center w-full h-full bg-black bg-opacity-50"
             @click="handleModalToogle({ status: false })">
-            <div 
+            <div
             @click.stop
             :class="state.width" class="fixed mx-10">
                 <div
@@ -18,7 +18,7 @@
         </div>
     </teleport>
 </template>
-  
+
 <script>
 import { reactive, onBeforeUnmount, onMounted, defineAsyncComponent } from 'vue'
 import useModal from '../../hooks/useModal'
