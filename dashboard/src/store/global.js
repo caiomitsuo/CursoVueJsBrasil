@@ -6,6 +6,6 @@ const state = reactive({
 
 export default state
 
-export function setLoading (status) {
+export function setGlobalLoading (status) {
   state.isLoading = status
 }
